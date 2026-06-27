@@ -1,0 +1,37 @@
+*
+{
+    margin: 0;
+}
+body { background-color: lightslategrey;}
+
+
+
+.big
+{
+    margin: auto;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    grid-template-rows: repeat(3,250px);
+    background-color: lightgray;
+    place-content: center;
+    gap: 10px;
+}
+
+
+
+.cont1
+{
+    background-color: salmon;
+    display: grid;
+    grid-template-columns: repeat(4,60px);
+    grid-template-rows: repeat(4,50px);
+    place-content: center;
+    gap: 10px;
+}
+.box
+{
+    background-color: pink;
+}
+
+
